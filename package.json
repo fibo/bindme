@@ -1,0 +1,28 @@
+{
+  "name": "bindme",
+  "version": "0.0.0",
+  "description": "is a helper to bind a list of methods to an object reference",
+  "main": "bindme.js",
+  "scripts": {
+    "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibo/bindme.git"
+  },
+  "keywords": [
+    "bind",
+    "helper",
+    "autobind",
+    "react",
+    "performance",
+    "tip"
+  ],
+  "author": "Gianluca Casati <gcasati@beintoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fibo/bindme/issues"
+  },
+  "homepage": "http://g14n.info/bindme"
+}
