@@ -1,6 +1,6 @@
 {
   "name": "bindme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "is a helper to bind a list of methods to an object reference",
   "main": "bindme.js",
   "scripts": {
