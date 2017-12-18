@@ -5,4 +5,4 @@ function bindme (self) {
   })
 }
 
-module.exports = bindme
+module.exports = exports.default = bindme
